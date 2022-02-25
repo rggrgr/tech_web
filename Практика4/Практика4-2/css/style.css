@@ -17,13 +17,14 @@ a {
 
 .header {
 	font-size: 0;
-	width: 800px;
+	width: 100vw;
 	margin: auto;
 }
 .logo {
 	font-size: 20px;	 
-	width: 200px;
+	width: 20vw;
 	display: inline-block;
+	margin-left: 20vw;
 }
 .menu {
 	font-size: 16px;
