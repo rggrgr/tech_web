@@ -1,0 +1,130 @@
+@import url(reset.css);
+
+a{
+	text-decoration: none;
+}
+
+.page{
+
+}
+
+.header{
+	position: fixed;
+	background: black;
+	width: 100vw;
+	height: 8vw;
+	display: flex;
+	z-index: 1;
+}
+.content{
+	position: absolute;
+	margin-top: 8vw;
+}
+.image-container{
+	width: 40vw;
+	height: 40vw;
+	background-image: url("../img/IsaacNewton.jpg");
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-container{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15vw;
+	color: white;
+	font-weight: 600;
+}
+
+.header-container h1{
+	font-size: 2vw
+}
+
+.header-container2{
+	margin-left: 50vw;
+}
+
+.header-container a{
+	font-size: 1vw;
+	color: white;
+}
+
+.info{
+	display: flex;
+}
+
+.info-container{
+	width: 30.5vw;
+	padding: 1vw;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+.info-container h2{
+	font-weight: 600;
+}
+
+.info-container p{
+	font-size: 1vw;
+}
+
+.info-container_center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sectionText{
+	margin-bottom: 0.5vw;
+	font-size: 1.5vw;
+}
+
+.link-container{
+	width: 99.1vw;
+	height: 4vw;
+	margin-top: 0.5vw;
+	text-align: center;
+	background: black;
+	color: white;
+}
+
+.link-container h1{
+	margin: 0;
+	padding-top: 1vw;
+	font-size: 1.5vw;
+	font-weight: 600;
+}
+
+.more_links {
+	margin-top: 0.5vw;
+	margin-left: 1.5vw;
+}
+
+.more_links a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2vw;
+	font-weight: 600;
+}
+
+.footer{
+	position: absolute;
+	margin-top: 71vw;
+	width: 99.1vw;
+	height: 4vw;
+	background: black;
+}
+
+.footer-container{
+	text-align: center;
+	color: white;
+	margin-top: 1vw;
+	font-size: 1.5vw;
+}
+
+.footer-container a{
+	color: white;
+}
+
+
