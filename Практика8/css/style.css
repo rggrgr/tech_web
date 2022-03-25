@@ -1,0 +1,141 @@
+@import url(reset.css);
+
+@media screen and (max-width: 649px) {
+
+	.fr{
+		width: 60vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.btn{
+		width: 40vw;
+	}
+
+	.content{
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+}
+
+@media screen and (min-width: 650px) {
+
+	.fr{
+		margin-left: auto;
+		margin-right: auto;
+		width: 55vw;
+	}
+
+	.btn{
+		width: 35vw;
+	}
+
+	.content{
+		background-size: 100vw 82vh;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+}
+
+@media screen and (min-width: 900px) {
+
+	.fr{
+		margin-left: 5vw;
+		width: 25vw;
+	}
+
+	.content{
+		background-size: 100vw 82vh;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.btn{
+		width: 15vw;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+
+	.fr{
+		margin-left: 5vw;
+		width: 20vw;
+	}
+
+	.content{
+		background-size: 100vw 82vh;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.btn{
+		width: 15vw;
+	}
+}
+
+.header{
+	height: 12vh;
+	background: #E17E7E;
+}
+
+.content{
+	height: 70vh;
+	background-image: url("../img/Death-Stranding-Fan-Poster.webp");
+	padding-top: 8vh;
+}
+
+.form{
+	background: #E17E7E;
+	border-radius: 15px;
+	padding-left: 2vw;
+	padding-top: 5vh;
+	padding-bottom: 4vh;
+	text-align: left;
+	border: 2px solid white;
+}
+
+.fr{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.btn{
+	height: 5vh;
+	margin-top: 3vh;
+	border-radius: 20px;
+	border: none;
+	background: #E17E7E;
+	font-size: 16px;
+	color: white;
+	border: 3px solid white;
+}
+
+.footer{
+	height: 10vh;
+	background: #E17E7E;
+	text-align: center;
+	color: white;
+}
+
+.footer h1{
+	padding-top: 4vh;
+	font-size: 24px;
+}
+
+form input{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 2vh;
+	width: 90%;
+	color: white;
+	font-size: 16px;
+}
+
+form h1{
+	margin-bottom: 1vh;
+}
