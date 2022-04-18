@@ -23,7 +23,11 @@ function getAge(age) {
 
 function getRemainder(dividend, divider) {
 
-	return dividend % divider;
+	if(dividend.length > 0 && divider.length > 0){
+		return parseInt(dividend) % parseInt(divider);
+	}else{
+		return 0;
+	}
 }
 
 function faceControl(age) {

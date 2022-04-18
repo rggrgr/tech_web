@@ -22,5 +22,6 @@ main{
 
 h1{
 	font-size: 20px;
-	margin-bottom: 0.5vh;
+	font-weight: 600;
+	margin-bottom: 1vh;
 }
