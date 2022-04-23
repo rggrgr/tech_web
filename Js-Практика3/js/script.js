@@ -24,6 +24,9 @@ let result7 = document.querySelector('#result7');
 let task8 = document.querySelector('#task8');
 let result8 = document.querySelector('#result8');
 
+let task9 = document.querySelector('#task9');
+let result9 = document.querySelector('#result9');
+
 function sumArray(arr){
 	arr.forEach(function(num){
 		summ1 = summ1 + num;
